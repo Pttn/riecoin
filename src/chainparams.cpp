@@ -105,11 +105,6 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nStartTime = 1546300800; // January 1st, 2019.
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1577836800; // January 1st, 2020.
 
-        // To alert nodes that still use 95% threshold
-        consensus.vDeployments[Consensus::LOWER_THRESHOLD].bit = 5;
-        consensus.vDeployments[Consensus::LOWER_THRESHOLD].nStartTime = 1546300800; // January 1st, 2019.
-        consensus.vDeployments[Consensus::LOWER_THRESHOLD].nTimeout = 1577836800; // January 1st, 2020.
-
         // The best chain should have at least this much work.
         consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000093bf63ce15ec087be1cb19337f378"); // 931912
 
