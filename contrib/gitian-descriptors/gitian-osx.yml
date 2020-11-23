@@ -29,7 +29,7 @@ packages:
 - "python3-setuptools"
 - "fonts-tuffy"
 remotes:
-- "url": "https://github.com/riecointeam/riecoin.git"
+- "url": "https://github.com/Pttn/riecoin.git"
   "dir": "riecoin"
 files:
 - "MacOSX10.14.sdk.tar.gz"
