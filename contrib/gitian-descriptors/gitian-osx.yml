@@ -29,7 +29,7 @@ packages:
 - "python3-setuptools"
 - "fonts-tuffy"
 remotes:
-- "url": "https://github.com/riecointeam/riecoin.git"
+- "url": "https://github.com/Pttn/riecoin.git"
   "dir": "riecoin"
 files:
 - "Xcode-11.3.1-11C505-extracted-SDK-with-libcxx-headers.tar.gz"
